@@ -49,7 +49,7 @@ Our functions are triggered from a function.call topic we publish to NATS. See t
 When publishing a message to the queue we use the following format.
 
 Synchronous Functions
-```json
+```
 {
   function: 'figlet', 
   params: {
@@ -59,7 +59,7 @@ Synchronous Functions
 ```
 
 Asynchronous Functions
-```json
+```
 {
   function: 'figlet', 
   params: {
