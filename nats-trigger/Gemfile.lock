@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    eventmachine (1.2.6)
+    httparty (0.16.2)
+      multi_xml (>= 0.5.2)
+    multi_xml (0.6.0)
+    nats (0.8.4)
+      eventmachine (~> 1.2, >= 1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httparty
+  nats
+
+BUNDLED WITH
+   1.15.4
